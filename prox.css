@@ -1,0 +1,153 @@
+@font-face{
+	font-family:futura;
+	font-style:normal;
+	font-weight:normal;
+	src: url(font/futura.ttf);
+}
+
+nav a, p{
+    font-family:futura;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #D9EDF7;
+    height: 99%;
+    width: 99%;
+    margin: auto;
+}
+
+header {
+    background-color: #D9EDF7;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.pirata {
+    height: 75px;
+    width: 75px;
+    align-self: center;
+}
+
+.logo{
+    height: 100px;
+    width: 250px;
+}
+
+nav {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.opciones {
+    padding: 20px;
+    color: white;
+    background-color: #3399FF;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 5px;
+    transition: background-color .35s ease-out;
+}
+
+.opciones:hover,
+.opciones:focus{
+    color: rgb(224, 142, 64);
+    background-color: #1262B3;
+    transition: all .35s ease-in;
+}
+
+h1, h2{
+    margin-top: 0px;
+}
+
+.section{
+    text-align: center;
+    margin:0;
+    background-color: white;
+}
+.section p{
+    font-size: 3em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+footer ul li{
+    padding: 5px;
+}
+footer a{
+    color: white;
+}
+
+/* Para Celulares: */
+[class*="col-"] {
+    width: 100%;
+}
+  
+@media only screen and (min-width: 600px) {
+    /* Para Tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .contenedor {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section, footer{
+        margin: 0;
+    }
+    .section p{
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Para Escritorio: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .contenedor {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    section{
+        margin: 0 0 0 10px;
+    }
+    .section p{
+        font-size: 5em;
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>siu guarani - login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://use.fontawesome.com/45c6e0d32f.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cabezera">
+            <img class="pirata" src="img/pirata.png" alt="pirata">
+            <img class="logo" src="img/logo.png" alt="siu-guarani">    
+        </div>
+
+        <div class="login-item">
+          <form  class="form form-login" action="home.html" target="_self" method="post">
+            <div class="form-campo">
+              <label class="user" for="login-username"><i class="fa fa-user fa-2x" aria-hidden="true"></i></label>
+              <input id="login-username" type="text" class="form-input" placeholder="Usuario" required>
+            </div>
+    
+            <div class="form-campo">
+              <label class="lock" for="login-password"><i class="fa fa-lock fa-2x" aria-hidden="true"></i></label>
+              <input id="login-password" type="password" class="form-input" placeholder="Contraseña" required>
+            </div>
+    
+            <div class="form-campo">
+              <input type="submit" value="Ingresar">
+            </div>
+          </form>
+        </div>
+        <a class="preguntas" href="#">¿Olvidaste tu contraseña?</a>
+        <a class="preguntas" href="#">¿Sos un usuario nuevo?</a>
+    </div>
+</body>
+</html>

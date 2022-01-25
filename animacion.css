@@ -1,0 +1,315 @@
+[id*="s"]{
+    color: black;
+    animation-duration: 4.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+#s1{ 
+    animation-name: as1;  
+}
+@keyframes as1 {
+    0% {color: white;}
+    7.1428%  {color: black;}
+    14.2856%  {color: black;}
+    21.4284%  {}
+    28.5712% {}
+    35.714%  {}
+    42.8568%  {}
+    49.9996%  {}
+    57.1424% {}
+    64.2852%  {}
+    71.428%  {}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s2{
+    animation-name: as2;
+}
+@keyframes as2 {
+    0% {color: white;}
+    7.1428%  {}
+    14.2856%  {color: black;}
+    21.4284%  {color: black;}
+    28.5712% {}
+    35.714%  {}
+    42.8568%  {}
+    49.9996%  {}
+    57.1424% {}
+    64.2852%  {}
+    71.428%  {}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s3{
+    animation-name: as3;
+}
+@keyframes as3 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {}
+    21.4284%  {color: black;}
+    28.5712% {color: black;}
+    35.714%  {}
+    42.8568%  {}
+    49.9996%  {}
+    57.1424% {}
+    64.2852%  {}
+    71.428%  {}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s4{
+    animation-name: as4;
+}
+@keyframes as4 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {}
+    28.5712% {color: black;}
+    35.714%  {color: black;}
+    42.8568%  {}
+    49.9996%  {}
+    57.1424% {}
+    64.2852%  {}
+    71.428%  {}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s5{ 
+    animation-name: as5;  
+}
+@keyframes as5 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {}
+    35.714%  {color: black;}
+    42.8568%  {color: black;}
+    49.9996%  {}
+    57.1424% {}
+    64.2852%  {}
+    71.428%  {}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s6{
+    animation-name: as6;
+}
+@keyframes as6 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {}
+    42.8568%  {color: black;}
+    49.9996%  {color: black;}
+    57.1424% {}
+    64.2852%  {}
+    71.428%  {}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s7{
+    animation-name: as7;
+}
+@keyframes as7 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {color: white;}
+    42.8568%  {}
+    49.9996%  {color: black;}
+    57.1424% {color: black;}
+    64.2852%  {}
+    71.428%  {}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s8{
+    animation-name: as8;
+}
+@keyframes as8 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {color: white;}
+    42.8568%  {color: white;}
+    49.9996%  {}
+    57.1424% {color: black;}
+    64.2852%  {color: black;}
+    71.428%  {}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s9{ 
+    animation-name: as9;  
+}
+@keyframes as9 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {color: white;}
+    42.8568%  {color: white;}
+    49.9996%  {color: white;}
+    57.1424% {}
+    64.2852%  {color: black;}
+    71.428%  {color: black;}
+    78.5708%  {}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s10{
+    animation-name: as10;
+}
+@keyframes as10 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {color: white;}
+    42.8568%  {color: white;}
+    49.9996%  {color: white;}
+    57.1424% {color: white;}
+    64.2852%  {}
+    71.428%  {color: black;}
+    78.5708%  {color: black;}
+    85.7136% {}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s11{
+    animation-name: as11;
+}
+@keyframes as11 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {color: white;}
+    42.8568%  {color: white;}
+    49.9996%  {color: white;}
+    57.1424% {color: white;}
+    64.2852%  {color: white;}
+    71.428%  {}
+    78.5708%  {color: black;}
+    85.7136% {color: black;}
+    92.8564% {}
+    99% {}
+    100% {color: white;}
+}
+
+#s12{
+    animation-name: as12;
+}
+@keyframes as12 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {color: white;}
+    42.8568%  {color: white;}
+    49.9996%  {color: white;}
+    57.1424% {color: white;}
+    64.2852%  {color: white;}
+    71.428%  {color: white;}
+    78.5708%  {}
+    85.7136% {color: black;}
+    92.8564% {color: black;}
+    99% {}
+    100% {color: white;}
+}
+
+#s13{ 
+    animation-name: as13;  
+}
+@keyframes as13 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {color: white;}
+    42.8568%  {color: white;}
+    49.9996%  {color: white;}
+    57.1424% {color: white;}
+    64.2852%  {color: white;}
+    71.428%  {color: white;}
+    78.5708%  {color: white;}
+    85.7136% {}
+    92.8564% {color: black;}
+    99% {color: black;}
+    100% {color: white;}
+}
+
+#s14{
+    animation-name: as14;
+}
+@keyframes as14 {
+    0% {color: white;}
+    7.1428%  {color: white;}
+    14.2856%  {color: white;}
+    21.4284%  {color: white;}
+    28.5712% {color: white;}
+    35.714%  {color: white;}
+    42.8568%  {color: white;}
+    49.9996%  {color: white;}
+    57.1424% {color: white;}
+    64.2852%  {color: white;}
+    71.428%  {color: white;}
+    78.5708%  {color: white;}
+    85.7136% {color: white;}
+    92.8564% {}
+    99% {color: black;}
+    100% {color: white;}
+}

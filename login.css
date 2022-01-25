@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@font-face{
+	font-family:futura;
+	font-style:normal;
+	font-weight:normal;
+	src: url(font/futura.ttf);
+}
+body {
+    background-color: #D9EDF7;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 40px auto 0px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cabezera {
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.pirata {
+    height: 150px;
+    width: 150px;
+}
+
+.logo{
+    height: 100px;
+    width: 250px;
+}
+
+.preguntas {
+    text-decoration: none;
+    color: slategray;
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+}
+.preguntas:hover{
+    color:  #3399FF;
+}
+
+.login-item {
+	color: #ffff;
+	padding:25px 25px 0;
+	margin: 20px 20px 0;	
+  border-radius: 3px;
+  height: 240px;
+}
+
+input {
+  border: 0;
+  margin: 0;
+}
+
+.form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+  width: 100%;
+}
+
+.form-login label,
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="submit"] {
+  border-radius: 0.25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+  font-family:futura;
+}
+
+.form-login label {
+  background-color: #404040;
+  color:#3399FF;
+  width: 25px;
+  height: 25px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.form-login input[type="text"], .form-login input[type="password"] {
+  background-color: white;
+}
+.form-login input[type="text"]:focus, .form-login input[type="text"]:hover, .form-login input[type="password"]:focus, .form-login input[type="password"]:hover {
+  background-color: #eeeeee;
+}
+
+.form-login input[type="submit"] {
+  background-color: #3399FF;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.form-login input[type="submit"]:focus, .form-login input[type="submit"]:hover {
+  background-color: #3074b8;
+}
+
+.form-campo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
